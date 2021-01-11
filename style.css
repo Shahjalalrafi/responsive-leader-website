@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #e9e5fc;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+}
+/* HEADER */
+
+header  {
+    background: #562EFF;
+    overflow: hidden;
+    padding: 20px 0px;
+}
+header .logo {
+    float: left;
+    width: 30%;
+}
+header .header-page {
+    float: left;
+    width: 70%;
+}
+header .logo-img {
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+.logo-content {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+header .logo-content{
+    float: left;
+}
+header .header-page ul{
+    float: left;
+    list-style: none;
+    width: 90%;
+    text-align: right;
+    margin-top: 20px;
+}
+header .header-page ul li {
+    display: inline;
+}
+header .header-page ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 20px;
+    text-align: right;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+header .header-page img {
+    float: right;
+    width: 70px;
+    height: 70px;
+}
+/* HEADER END HERE */
+/* PLAYER AND BLOG SECTION START HERE */
+.player-blog {
+    width: 70%;
+    margin: 50px auto 0px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 50px 0px;
+}
+.player-title {
+    color: #562EFF;
+    padding: 50px 0px;
+}
+.player-group {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.player {
+    display: flex;
+    align-items: center;
+}
+.player .player-img {
+    width: 50px;
+}
+.player .player-name {
+    font-size: 20px;
+    padding-left: 20px;
+}
+/* blog */
+.blog-title {
+    color: #562EFF;
+    padding: 50px 0px;
+}
+.blog-group {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+.blog-content {
+    display: flex;
+}
+.blog-content .blog-img img {
+    width: 200px;
+}
+.blog-content .blog-info h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.blog-content .blog-info p {
+    font-size: 20px;
+    color: #9F9F9F;
+}
+.blog-content .blog-info a {
+    text-decoration: none;
+    color: #562EFF;
+}
+.blog-content .blog-info {
+    margin-left: 20px;
+}
+
+
+
+
+
+/* PLAYER AND BLOG SECTION END HERE */
